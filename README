@@ -1,0 +1,18 @@
+You'd probably want to use this inside a virtualenv:
+
+mkdir profiler
+virtualenv profiler
+. profiler/bin/activate
+
+And now install the tool using pip:
+
+cd src
+pip install .
+
+Now you should be able to run the tool:
+
+profiler
+
+The rest should be pretty obvious.
+
+profiler --help
